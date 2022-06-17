@@ -3,3 +3,17 @@
     padding: 15px 30px;
     margin-bottom: 30px;
 }
+
+.movie-item img {
+    width: 100%;
+}
+
+.main-header {
+    text-align: center;
+    padding: 40px;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+}

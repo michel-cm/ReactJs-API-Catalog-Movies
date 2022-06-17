@@ -21,7 +21,10 @@ export const MovieDetail = (props) => {
       <div className="container">
         <div className="row gx-5">
           <div className="col-6">
-        
+          <img
+        src={`https://image.tmdb.org/t/p/w200/${movie.poster_path}`}
+        alt=""
+      />
           </div>
           <div className="col-6">
             <h1>{movie.title}</h1>
